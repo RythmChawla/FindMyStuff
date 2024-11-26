@@ -1,0 +1,270 @@
+/* Home.css */
+
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-repeat: no-repeat;
+    background-position-y: 30px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-top: 1rem;
+}
+h2{
+    text-align: center;
+}
+.search-container h2 {
+    
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.search-container span {
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+.category-dropdown {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.posts-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+    
+    object-fit:cover;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.card-content p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+.backimage{
+    background-image: url("iit\ mandi.jpg");
+    width: 100%;
+}
+.about-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
+}
+
+.about-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-section p, .about-section ul {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.about-section h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.about-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.about-section a {
+    color: #333;
+    text-decoration: underline;
+}
+
+.about-section a:hover {
+    text-decoration: none;
+}
+
+.featured-posts {
+    padding: 20px;
+    background-color: #f0f0f0;
+    width: 100%;
+    /* border: 2px solid rgb(236, 243, 243); */
+}
+
+.featured-posts .posts-grid {
+    display: flex;
+    gap: 5rem;
+}
+
+.featured-posts .post {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 300px;
+    text-align: center;
+}
+
+.featured-posts h2 {
+    padding-bottom: 20px;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* FAQ Section styling */
+.faq-section {
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.faq-section h1 {
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+.accordion {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.accordion-header {
+    margin: 0;
+}
+
+.accordion-button {
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    font-size: 1.1rem;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #fff;
+    border: none;
+    color: #000;
+}
+
+.accordion-body {
+    display: none;
+    padding: 10px;
+    background-color: #f8f9fa;
+    font-size: 1.1rem;
+}
+
+.accordion-body.show {
+    display: block;
+}
+
+.footer-logo {
+    margin: 10px;
+    padding: 10px;
+}
+
+.featured-posts .post img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-social .fab {
+    font-size: 24px;
+    color: #fff;
+    transition: color 0.3s ease;
+    padding: 0.5rem;
+}
+
+.footer-social .fab:hover {
+    color: #bbb;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links {
+    margin: 10px 0;
+}
+
+.search-container .items{
+    font-weight: bold;
+    /* display: flex; */
+    /* justify-content: left; */
+}
+
+.search-container .category{
+    font-weight: bold;
+    /* display: flex; */
+    /* justify-content: right; */
+}
+
+.search-container{
+    display: flex;
+    justify-content: space-between;
+}
